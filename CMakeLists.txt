@@ -11,7 +11,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
 # OpenCV directory
-set(OpenCV_DIR ${CMAKE_CURRENT_SOURCE_DIR}/opencv/build)
+set(OpenCV_DIR ${CMAKE_CURRENT_SOURCE_DIR}/opencv-4.5.4/build)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 

@@ -1,0 +1,4 @@
+/home/xlk/Desktop/unity/QT-OpenCV/CMakeFiles/edit_cache.dir
+/home/xlk/Desktop/unity/QT-OpenCV/CMakeFiles/rebuild_cache.dir
+/home/xlk/Desktop/unity/QT-OpenCV/CMakeFiles/ClassifierExample.dir
+/home/xlk/Desktop/unity/QT-OpenCV/CMakeFiles/ClassifierExample_autogen.dir
