@@ -1,5 +1,4 @@
-# ClassifierExample
-opencv dnn implementation on qt application
+OpenCV DNN implementation on a QT application
 ========================
 
 ##Summary
