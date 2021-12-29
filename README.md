@@ -14,7 +14,7 @@ Aditional libraries used for development:
 - Python 3 , used to run script to convert model.
 - ssd_mobilenet_v1_coco , model being implemented.
 
-#Development process
+# Development process
 A minimal QT widget project was used as a base for development, adding the path to the OpenCV build directory and linking it on the CMakeList.
 From here, a basic UI was made:
 - ```QGraphicsView``` to display the output ```QGraphicsScene```.
@@ -283,7 +283,9 @@ if (!isImage) video.release();
 To load a TensorFlow model, it must first be converted to a ```*.pb``` and ```*.pbtxt```. For this purpose, OpenCV comes with a python script that does this conversion.
 It is included as ```/ssd_mobilenet_v1_coco/tf_text_graph_ssd.py```.
 Run the script with the following parameters:
-```tf_text_graph_ssd.py --input frozen_inference_graph.pb --output frozen_inference_graph.pbtxt --config pipeline.config```
+```
+tf_text_graph_ssd.py --input frozen_inference_graph.pb --output frozen_inference_graph.pbtxt --config pipeline.config
+```
 The CSV file with the corresponding labels is already included as```/ssd_mobilenet_v1_coco/class-names.csv```.
 
 At this point, the application can be run, switching to the "settings" tab to select the weight files and labels CSV.
