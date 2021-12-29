@@ -1,9 +1,9 @@
 OpenCV DNN implementation on a QT application
 ========================
 
-##Summary
+#Summary
 This is an example of how to implement a deep-learning model (TensorFlow model, in this example) on a QT application using openCV.
-##Environment
+#Environment
 Built on Ubuntu 20.04.3 LTS using:
 - QT 6.1.1
 - CMake 3.16.3
@@ -14,7 +14,7 @@ Aditional libraries used for development:
 - Python 3 , used to run script to convert model.
 - ssd_mobilenet_v1_coco , model being implemented.
 
-##Development process
+#Development process
 A minimal QT widget project was used as a base for development, adding the path to the OpenCV build directory and linking it on the CMakeList.
 From here, a basic UI was made:
 - ```QGraphicsView``` to display the output ```QGraphicsScene```.
@@ -279,7 +279,7 @@ if (!isImage) video.release();
 ```
 
 
-##Usage
+#Usage
 To load a TensorFlow model, it must first be converted to a ```*.pb``` and ```*.pbtxt```. For this purpose, OpenCV comes with a python script that does this conversion.
 It is included as ```/ssd_mobilenet_v1_coco/tf_text_graph_ssd.py```.
 Run the script with the following parameters:
