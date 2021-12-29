@@ -6,33 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/xlk/Desktop/unity/QT-OpenCV/ClassifierExample_autogen/EWIEGA46WW/moc_mainwindow.cpp
-memory
--
-mainwindow.h
-/home/xlk/Desktop/unity/QT-OpenCV/ClassifierExample_autogen/EWIEGA46WW/mainwindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/xlk/Desktop/unity/QT-OpenCV/ClassifierExample_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_mainwindow.cpp
-/home/xlk/Desktop/unity/QT-OpenCV/ClassifierExample_autogen/EWIEGA46WW/moc_mainwindow.cpp
-
-/home/xlk/Desktop/unity/QT-OpenCV/main.cpp
-mainwindow.h
-/home/xlk/Desktop/unity/QT-OpenCV/mainwindow.h
-QApplication
--
-
 /home/xlk/Desktop/unity/QT-OpenCV/mainwindow.cpp
 mainwindow.h
 /home/xlk/Desktop/unity/QT-OpenCV/mainwindow.h
-ui_mainwindow.h
-/home/xlk/Desktop/unity/QT-OpenCV/ui_mainwindow.h
 QDebug
 -
+ui_mainwindow.h
+/home/xlk/Desktop/unity/QT-OpenCV/ui_mainwindow.h
 
 /home/xlk/Desktop/unity/QT-OpenCV/mainwindow.h
 QMainWindow
@@ -3240,27 +3220,5 @@ QtWidgets/QSpinBox
 QtWidgets/QTabWidget
 -
 QtWidgets/QWidget
--
-
-mainwindow.h
-QMainWindow
--
-QMessageBox
--
-QDebug
--
-QFile
--
-QElapsedTimer
--
-QGraphicsScene
--
-QGraphicsPixmapItem
--
-QCloseEvent
--
-QFileDialog
--
-opencv2/opencv.hpp
 -
 

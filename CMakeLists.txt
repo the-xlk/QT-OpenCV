@@ -14,6 +14,8 @@ set(CMAKE_AUTORCC ON)
 set(OpenCV_DIR ${CMAKE_CURRENT_SOURCE_DIR}/opencv-4.5.4/build)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
+# allow using opencl, regardless of device
+set(OPENCV_DNN_OPENCL_ALLOW_ALL_DEVICES 1)
 
 # QT Dependencies
 find_package(QT NAMES Qt6 COMPONENTS Core Gui Widgets REQUIRED)
